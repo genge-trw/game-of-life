@@ -22,12 +22,12 @@ Conway's Game of Life is a cellular automaton devised by the British mathematici
 
 ## Build Instructions
 
-To build this project, you need a C++ compiler (like g++) and SDL2 development libraries installed on your system. The `Makefile` is configured for a Linux/Termux environment where SDL2 headers are typically found in `/data/data/com.termux/files/usr/include/SDL2` and libraries are linked with `-lSDL2`.
+To build this project, you need a C++ compiler (like g++) and SDL2 development libraries installed on your system. The `Makefile` is configured for a Linux/Termux environment where SDL2 headers are typically found in `path-to-SDL2` and libraries are linked with `-lSDL2`.
 
 1.  Navigate to the project root directory:
 
     ```bash
-    cd /data/data/com.termux/files/home/Desktop/Projects/Tutorials/07
+    cd game-of-life
     ```
 
 2.  Run `make` to compile the project:
